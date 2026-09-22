@@ -38,7 +38,7 @@ st.divider()
 def load_data():
 
     df = pd.read_csv(
-        df = pd.read_csv("placementdata.csv"))
+        df = pd.read_csv("placementdata (1).csv"))
     # Select required columns
     df = df[
         [
