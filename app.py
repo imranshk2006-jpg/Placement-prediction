@@ -37,7 +37,7 @@ st.divider()
 @st.cache_data
 def load_data():
 
-df = pd.read_csv("placementdata (1).csv")
+    df = pd.read_csv("placementdata (1).csv")
     # Select required columns
     df = df[
         [
