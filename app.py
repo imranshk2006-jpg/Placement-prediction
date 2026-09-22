@@ -38,8 +38,7 @@ st.divider()
 def load_data():
 
     df = pd.read_csv(
-        "C:\Users\Dia\OneDrive\Desktop\imran\placementdata (1).csv")
-
+        df = pd.read_csv("placementdata.csv"))
     # Select required columns
     df = df[
         [
